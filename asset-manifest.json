@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cloth-shop1/static/css/main.d348a886.css",
+    "main.js": "/cloth-shop1/static/js/main.3baff7b0.js",
+    "static/media/pajamas.jpg": "/cloth-shop1/static/media/pajamas.164b96328e19e6fc92a8.jpg",
+    "static/media/knitted.jpg": "/cloth-shop1/static/media/knitted.837af8f42ed2277ba1fc.jpg",
+    "static/media/gown.jpg": "/cloth-shop1/static/media/gown.6369420badd70d7d0033.jpg",
+    "index.html": "/cloth-shop1/index.html",
+    "main.d348a886.css.map": "/cloth-shop1/static/css/main.d348a886.css.map",
+    "main.3baff7b0.js.map": "/cloth-shop1/static/js/main.3baff7b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d348a886.css",
+    "static/js/main.3baff7b0.js"
+  ]
+}
