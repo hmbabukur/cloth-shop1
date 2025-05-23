@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: #d7d2d2;
   
 }
 
@@ -45,15 +45,40 @@ h1 {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  margin: 5px 5px;
 }
 
 .card button:hover {
   background: #45a049;
 }
+input{
+  width: 250px;
+  height: 20px;
+  padding: 5px;
+  margin: 5px 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.form-container{
+  padding: 1rem;
+}
 
+.form-container #addproductbtn{
+  padding: 10px 15px;
+  margin: 0px 5px;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* CART AND CHECKOUT */
 .cart, .checkout {
   margin: 2rem 0;
-  background: #fff;
+  background: white;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -61,8 +86,10 @@ h1 {
 .cart-item {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin: 1rem 0;
+  gap: 0.5rem;
+  margin: 2rem 0;
+  padding: 10px;
+  background-color: #f0efef;
 }
 
 .cart-item img {
@@ -75,6 +102,7 @@ h1 {
   border: none;
   color: white;
   padding: 5px 10px;
+  margin-bottom: 10px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -106,8 +134,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 2rem;
-  background-color: #333;
+  margin-bottom: 1rem;
+  background-color: black;
   color: white;
   border-radius: 8px;
   padding: 0px 20px;
@@ -121,7 +149,6 @@ h1 {
   display: flex;
   gap: 25px;
   margin-right: 20px;
-
 }
 .navbar a {
   color: white;
@@ -131,4 +158,24 @@ h1 {
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  .navbar{
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .navbar .nav-links{
+    display: none;
+  }
+  .card{
+    width: 90%;
+  }
+  input{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+  }
 }

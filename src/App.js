@@ -32,7 +32,7 @@ function App() {
       <div className="app-container">
         <nav className="navbar">
             <div className="logo">
-              <h1>🧥 My Clothing Store</h1>
+              <h1>Products Store</h1>
             </div>
             <div className="nav-links">
               <Link to="/">Home</Link>

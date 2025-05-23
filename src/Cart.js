@@ -9,9 +9,9 @@ function Cart({ cartItems, removeFromCart }) {
       ) : (
         cartItems.map(item => (
           <div className="cart-item" key={item.id}>
-            <img src={item.Resources} alt={item.name} />
+            <img src={item.thumbnail} alt={item.name} />
             <div>
-              <h4>{item.name}</h4>
+              <h4>{item.title}</h4>
               <p>N{item.price} × {item.quantity}</p>
               <button onClick={() => removeFromCart(item.id)}>Remove</button>
             </div>
